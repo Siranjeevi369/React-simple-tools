@@ -1,0 +1,70 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+
+
+
+
+/* ------------------------------------------------------------------------------------counter componet */
+.counter{
+  height: 500px;
+  width: 500px;
+  background-color:lightblue;
+  margin: 0px auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 20px;
+  box-shadow: 1px 1px 10px #918E9B;
+  background: url('./assets/react.svg') no-repeat center;
+  background-size: 500px 500px;
+
+}
+.counter--count{
+  height: 150px;
+  width: 150px;
+  background-color: white;
+  text-align: center;
+  border-radius: 50%;
+}
+
+.minus, .plus {
+  height: 70px;
+  width: 105px;
+  background-color: black;
+  color: white;
+  border-radius: 50%;
+}
+.minus{
+  position: absolute;
+  margin-right: 350px;
+  
+}
+.plus{
+  position: absolute;
+  margin-right: -350px;
+  
+}
+.state-value{
+  background-color: rgb(138, 230, 233);
+  height: 100px;
+  width: 100px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+  box-shadow: 1px 1px 10px #918E9B;
+
+}
+.header{
+  padding: 20px;
+  text-align: center;
+  background: #1abc9c;
+  color: white;
+  font-size: 30px;
+}
